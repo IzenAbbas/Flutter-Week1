@@ -1,7 +1,7 @@
-# Ignore generated platform code for language stats
-android/* linguist-vendored
-ios/* linguist-vendored
-windows/* linguist-vendored
-linux/* linguist-vendored
-macos/* linguist-vendored
-web/* linguist-vendored
+# Ignore generated platform code for language stats recursively
+android/** linguist-vendored
+ios/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+web/** linguist-vendored
